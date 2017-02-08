@@ -10,8 +10,8 @@ public class JokesLoader {
 
     NetworkOperation networkOperation;
 
-    public JokesLoader(NetworkOperation networkOperation) {
-        this.networkOperation = networkOperation;
+    public JokesLoader() {
+        this.networkOperation = new NetworkOperation();
     }
 
     public String loadJoke(String... categories) {

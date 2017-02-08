@@ -5,7 +5,7 @@ package db;
  */
 public class CreditCard {
     int number;
-    int security;
+    int securityCode;
     int expiryMonth;
     int expiryYear;
 
